@@ -1,11 +1,11 @@
-Scail Scala Style Guide
+Heap Scala Style Guide
 =======================
 
 Introduction
 ------------
 
-The Scail Scala Style Guide contains recommendations for formatting conventions,
-coding style, and best practices to be used in all Scail projects.
+The Heap Scala Style Guide contains recommendations for formatting conventions,
+coding style, and best practices to be used in all Heap Scala projects.
 It is based on vast experience gathered across numerous Scala projects.
 
 ### Organization
@@ -37,7 +37,7 @@ change the semantic meaning of the code:
     1. "[Additional Remarks](#additional-remarks)" contains general hints that
     are always helpful to remember.
 
-All Scail projects make extensive use of
+All Heap projects make extensive use of
 [Static Analysis Tools](#static-analysis-tools) to enforce as many
 best practices as is currently allowed.
 Use the provided [EditorConfig](http://editorconfig.org) profile to
@@ -1183,7 +1183,7 @@ Go to File, Import Settings..., and select the file
             * Strip trailing spaces on Save: **All**
             * Ensure line feed at file end on Save
     * Code Style:
-        * Scheme: **Scail**
+        * Scheme: **Heap**
             * Line Separator (for new files): **Unix and OS X (\n)**
             * Right margin (columns): **100**
             * Enable EditorConfig support
